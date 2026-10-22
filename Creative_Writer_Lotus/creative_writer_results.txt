@@ -1,0 +1,32 @@
+AI CREATIVE WRITER — EXPERIMENT REPORT
+Date: 2026-10-18T15:13:35
+Model: gpt-4.1-mini
+Prompt: reasoning effort
+Word target: 120; output-token cap: 450
+top_p=1.0; presence_penalty=0.0; frequency_penalty=0.0
+
+COMPARISON (repeat-word share is only a rough indicator)
+Version | Style | Temperature | Latency(s) | Words | Repeat-word % | Total tokens
+1 | Focused | 0.3 | 1.85 | 103 | 18.4 | 261
+2 | Balanced | 0.8 | 1.86 | 114 | 22.5 | 279
+3 | Imaginative | 1.2 | 1.84 | 110 | 19.5 | 274
+
+FULL OUTPUTS
+
+VERSION 1 — Focused (temperature 0.3)
+Reasoning effort involves the deliberate mental work required to analyze information, draw conclusions, and solve problems. It demands focused attention and the ability to evaluate evidence critically. When we engage in reasoning, we move beyond instinct or habit, carefully weighing options and anticipating outcomes. This cognitive process is essential for making informed decisions, understanding complex issues, and adapting to new situations. Although reasoning can be mentally taxing, it enhances clarity and promotes sound judgment. Developing strong reasoning skills enables individuals to approach challenges methodically, avoid errors, and communicate ideas effectively. Ultimately, the effort invested in reasoning strengthens intellectual resilience and supports lifelong learning.
+
+VERSION 2 — Balanced (temperature 0.8)
+Reasoning effort shapes the quality of our decisions and the depth of our understanding. It requires patience to untangle complex ideas, curiosity to explore unseen connections, and resilience to challenge our own biases. When we engage deeply with problems, we move beyond surface answers and discover insights that transform perspectives. This mental labor isn’t always comfortable, but it fosters growth and wisdom. By valuing the journey of thought—not just the destination—we develop sharper judgment and richer empathy. Embracing reasoning effort empowers us to navigate uncertainty with confidence and to approach life’s challenges with clearer vision and purpose. In a fast-paced world, dedicating time to thoughtful reflection becomes an act of self-respect and intellectual courage.
+
+VERSION 3 — Imaginative (temperature 1.2)
+Reasoning effort is the lantern that slices through the fog of uncertainty, revealing pathways where instinct alone falters. Each flicker of logic illuminates hidden connections, breathing life into scattered thoughts. It hinges on wrestling with doubt, carving clarity from chaos—not a casual stroll but a deliberate hike through demanding mental terrain. This conscious striving transforms raw data into insight, forcing us to peek beyond the veil of immediate answers. It demands patience, a willingness to encounter complexity head-on, and the resolve to persist when solutions seem elusive. In cultivating this effort, reasoning becomes less a burden and more an art—a sculptor chiseling understanding from the marble block of unanswered questions.
+
+HUMAN REVIEW — complete after reading the outputs:
+Creativity: Which version uses the freshest ideas?
+Repetition: Which version repeats itself or uses cliches?
+Factual accuracy: Verify any factual claims with reliable sources.
+Writing style: Which tone best suits the task?
+Latency: Compare measured generation times above.
+Reasoning: Not tested; this non-reasoning model uses sampling controls.
+Audience usefulness: Which version would you actually publish or use?
