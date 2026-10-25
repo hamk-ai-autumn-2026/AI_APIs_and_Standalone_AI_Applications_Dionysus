@@ -1,0 +1,23 @@
+PROJECT PHOENIX - WEEKLY MEETING NOTES
+Date: Thursday, March 12
+Attendees: A. Rahman, L. Chen, M. Silva, T. Okafor
+
+1. Migration status
+   - Database migration to PostgreSQL 16 is 80% complete.
+   - Remaining: stored procedures and the reporting schema.
+   - Target cutover date: April 3 (risky, may slip by one week).
+
+2. Performance
+   - Median API latency dropped from 340 ms to 210 ms after caching.
+   - p99 latency is still 1.8 s; N. Petrov will profile the search endpoint.
+
+3. Budget
+   - Cloud spend for February was 41,200 EUR, 9% under forecast.
+   - The new observability stack adds ~600 EUR/month starting in April.
+
+4. Action items
+   - L. Chen: draft the rollback plan by March 19.
+   - M. Silva: obtain GDPR sign-off for the analytics export.
+   - T. Okafor: benchmark the two vector-database candidates.
+
+Next meeting: Thursday, March 19, 10:00, Room 2B.

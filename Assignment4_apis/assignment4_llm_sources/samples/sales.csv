@@ -1,0 +1,9 @@
+region,product,units,unit_price_eur,revenue_eur,quarter
+North,Widget Pro,1200,24.90,29880.00,Q1
+North,Widget Lite,3400,9.50,32300.00,Q1
+South,Widget Pro,980,24.90,24402.00,Q1
+South,Gadget X,450,59.00,26550.00,Q1
+East,Widget Lite,5120,9.50,48640.00,Q1
+East,Gadget X,310,59.00,18290.00,Q1
+West,Widget Pro,1490,24.90,37101.00,Q1
+West,Widget Lite,2870,9.50,27265.00,Q1

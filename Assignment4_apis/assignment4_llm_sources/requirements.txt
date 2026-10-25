@@ -1,0 +1,5 @@
+# Assignment #4 — llm_sources.py dependencies (Python 3.9+)
+requests>=2.28          # HTTP: URL fetching + LLM API calls
+beautifulsoup4>=4.11    # HTML parsing / sanitization (script & style removal)
+PyMuPDF>=1.23           # PDF text extraction (imported as fitz)
+python-docx>=1.1        # .docx text extraction
