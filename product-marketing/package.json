@@ -1,0 +1,13 @@
+{
+  "name": "product-marketing-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exercise #9 - Product Description Generator (CLI): analyses product images with a multimodal LLM and generates grounded marketing content.",
+  "scripts": {
+    "demo:bottle": "python3 product_marketing.py --images samples/bottle_1.jpg samples/bottle_2.jpg --info \"Stainless-steel insulated bottle, 750 ml, keeps drinks cold for 24 hours\" --tone friendly --slogans 3 --output bottle_content.md",
+    "demo:shoe": "python3 product_marketing.py --images samples/shoe_1.jpg --info \"Water-resistant hiking shoe for autumn and winter\" --tone professional --slogans 5 --output shoe_content.md"
+  },
+  "dependencies": {
+    "z-ai-web-dev-sdk": "^0.0.18"
+  }
+}

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# AI SDK credentials -- NEVER commit this file to GitHub!
+.z-ai-config
+
+# Environment files may contain API keys (e.g. OPENAI_API_KEY) -- never commit!
+.env
+
+# Generated content (re-create with the demo commands)
+# bottle_content.md
+# shoe_content.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
